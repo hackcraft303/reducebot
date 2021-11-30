@@ -1,6 +1,5 @@
 const mineflayer = require('mineflayer')
 const pvp = require('mineflayer-pvp').plugin
-const { pathfinder, Movements, goals} = require('mineflayer-pathfinder')
 const armorManager = require('mineflayer-armor-manager')
 
 const bot = mineflayer.createBot({
@@ -40,7 +39,6 @@ function guardArea (pos) {
   guardPos = pos.clone()
 
   if (!bot.pvp.target) {
-    moveToGuardPos()
   }
 }
 
@@ -50,15 +48,9 @@ function stopGuarding () {
   bot.pathfinder.setGoal(null)
 }
 
-function moveToGuardPos () {
-  const mcData = require('minecraft-data')(bot.version)
-  bot.pathfinder.setMovements(new Movements(bot, mcData))
-  bot.pathfinder.setGoal(new goals.GoalBlock(guardPos.x, guardPos.y, guardPos.z))
-}
 
 bot.on('stoppedAttacking', () => {
   if (guardPos) {
-    moveToGuardPos()
   }
 })
 
