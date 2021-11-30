@@ -1,3 +1,5 @@
+| 🇺🇸 [English](./README.md) | 🇷🇺 [Russian](./README_RU.md)|  
+|-------------------------|----------------------------|  
 # reducebot
 Adding a traning bot can reduce.
 template : 
