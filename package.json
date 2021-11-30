@@ -1,12 +1,12 @@
 {
-  "name": "pvpbot2",
+  "name": "reducebot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "TheDudeFromCI",
+  "author": "RussianEntity303",
   "license": "MIT",
   "dependencies": {
     "mineflayer": "^2.30.0",
