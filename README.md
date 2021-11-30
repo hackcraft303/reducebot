@@ -16,4 +16,10 @@ pkg install git
 apt install git
 git clone https://github.com/hackcraft303/reducebot
 
+ls
+
+reducebot
+
+node index.js (ip) (port) (bot name)
+
 enjoy:)
