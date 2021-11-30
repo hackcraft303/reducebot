@@ -9,17 +9,29 @@ This a script only work in termux und Visual studio.
 
 Your server must be pirated for the bot to work.
 
-and you have one question: 
-How to download in termux
+
 Commands :
-pkg install git
-apt install git
 git clone https://github.com/hackcraft303/reducebot
 
-ls
+To work, install `node.js` from the official [website](https://nodejs.org/en/), then, `in the bot folder`, write the following commands in the console  
 
-reducebot
+`npm install`
 
-node index.js (ip) (port) (bot name)
+or
+
+`npm init`  
+`npm install mineflayer`  
+`npm install mineflayer-pathfinder`  
+`npm install mineflayer-auto-eat`  
+`npm install mineflayer-tool`
+
+To start the bot  
+node \<file name> \<host> \<port> \[bot name] \[password]  
+Example: `node index.js localhost 23523 reducebot`
+
+Use command for bot start killing player : 
+
+'fight me'
+  
 
 enjoy:)
