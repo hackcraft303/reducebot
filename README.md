@@ -8,3 +8,12 @@ This a script only work in termux und Visual studio.
 
 
 Your server must be pirated for the bot to work.
+
+and you have one question: 
+How to download in termux
+Commands :
+pkg install git
+apt install git
+git clone https://github.com/hackcraft303/reducebot
+
+enjoy:)
